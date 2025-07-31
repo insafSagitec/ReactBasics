@@ -3,6 +3,7 @@ import './App.css';
 import BankHoliday from './Components/BankHoliday';
 import CarManuFacturer from './Components/Car/CarManufacturer';
 import BankHolidayAI from './Components/BankholidayAI';
+import GuessTheNumber from './Components/GuessTheNumber';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         </a>
       </header>
       <div>
-        <BankHoliday />
+        <GuessTheNumber />
+        {/* <BankHoliday /> */}
         {/* <BankHolidayAI /> */}
         {/* <CarManuFacturer /> */}
       </div>
